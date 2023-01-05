@@ -23,12 +23,12 @@ describe Solver do
     it 'should return "olleh" when the given argument is "hello"' do
       expect(@solver.reverse('hello')).to eq 'olleh'
     end
-    
+
     it 'should return enter a string when the given argument is not a string' do
       expect(@solver.reverse(1)).to eq 'Please enter a string'
     end
   end
-  
+
   context 'Testing the fizzbuzz method' do
     it 'should return "fizz" when the given argument is divisible by 3' do
       expect(@solver.fizzbuzz(3)).to eq 'fizz'
@@ -45,5 +45,5 @@ describe Solver do
     it 'should return the given argument when the given argument is not divisible by 3 or 5' do
       expect(@solver.fizzbuzz(2)).to eq '2'
     end
-  end 
+  end
 end

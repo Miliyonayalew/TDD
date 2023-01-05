@@ -1,21 +1,25 @@
 class Solver
-    def factorial(n)
-        n.zero? ? 1 : n.positive? ? n * factorial(n-1) : 'Please enter a positive number'
+  def factorial(num)
+    if num.zero?
+      1
+    else
+      num.positive? ? num * factorial(num - 1) : 'Please enter a positive number'
     end
+  end
 
-    def reverse(word)
-        word.is_a?(String) ? word.reverse : 'Please enter a string'
-    end
+  def reverse(word)
+    word.is_a?(String) ? word.reverse : 'Please enter a string'
+  end
 
-    def fizzbuzz(n)
-        if n.modulo(3).zero? && n.modulo(5).zero?
-            'fizzbuzz'
-        elsif n.modulo(3).zero?
-            'fizz'
-        elsif n.modulo(5).zero?
-            'buzz'
-        else
-            n.to_s
-        end
+  def fizzbuzz(num)
+    if num.modulo(3).zero? && num.modulo(5).zero?
+      'fizzbuzz'
+    elsif num.modulo(3).zero?
+      'fizz'
+    elsif num.modulo(5).zero?
+      'buzz'
+    else
+      num.to_s
     end
+  end
 end

@@ -4,7 +4,7 @@
 
   <br/>
 
-  <h3><b>School library</b></h3>
+  <h3><b>TDD</b></h3>
 
 </div>
 
@@ -14,14 +14,14 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 School Library ](#-school-library-)
+- [📖 Test Driven Development TDD ](#-test-driven-development-tdd-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
-    - [Key Features ](#key-features-)
   - [💻 Getting Started ](#-getting-started-)
   - [Prerequisites](#prerequisites)
     - [Setup](#setup)
   - [Usage](#usage)
+  - [Run the tests](#run-the-tests)
   - [Author ](#author-)
   - [🔭 Future Features ](#-future-features-)
   - [🤝 Contributing ](#-contributing-)
@@ -32,15 +32,15 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 School Library <a name="about-project"></a>
+# 📖 Test Driven Development TDD <a name="about-project"></a>
 
-**[ School Library ]** School library is an app that used to record what books are in the library and who borrows them.
+**[ TDD ]** In this project we implemented a class with some methods, but we do it by doing test-driven development (TDD) first. The idea is to write tests first and then the code.
 
 The app will allow you to:
 
-- [ ] Add new students or teachers.
-- [ ] Add new books.
-- [ ] Save records of who borrowed a given book and when.
+- [ ] To calculate factorial number.
+- [ ] To Return a reverse of word.
+- [ ] Returns fizzbuzz by checking the number.
 
 `And all of this is built in a beautiful and well-organized way!`
 
@@ -57,13 +57,6 @@ The app will allow you to:
 
 <!-- Features -->
 
-### Key Features <a name="key-features"></a>
-
-- **Add new students or teachers**
-- **Add new books**
-- **Save records of who borrowed a given book and when**
-
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
@@ -78,15 +71,15 @@ Have `Ruby`, and `Git` installed on your local machine.
 
 Clone this repository to your desired folder:
 
-- git clone https://github.com/Miliyonayalew/school-libray.git
-- cd school-library
+- git clone https://github.com/Miliyonayalew/TDD.git
+- cd TDD
 - Run `bundle install` to install the required gems
 
 
 ## Usage
-Run `main.rb` file in the terminal:
-ruby `main.rb`
 
+## Run the tests
+- Run `rspec` to run the tests or `rspec spec` 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -122,7 +115,7 @@ ruby `main.rb`
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Miliyonayalew/school-library/issues).
+Feel free to check the [issues page](https://github.com/Miliyonayalew/TDD/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
